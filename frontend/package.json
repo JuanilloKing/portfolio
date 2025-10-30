@@ -1,4 +1,5 @@
 {
+  "homepage": "https://JuanilloKing.github.io/portfolio",
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
@@ -57,7 +58,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "craco test"
+    "test": "craco test",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
