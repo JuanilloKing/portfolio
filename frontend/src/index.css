@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    font-family:
+        -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #0a0a0a;
+    color: #e0e0e0;
+}
+
+code {
+    font-family:
+        source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+@layer base {
+    :root {
+        --background: 10 10 10;
+        --foreground: 224 224 224;
+        --card: 26 26 26;
+        --card-foreground: 224 224 224;
+        --popover: 26 26 26;
+        --popover-foreground: 224 224 224;
+        --primary: 0 255 65;
+        --primary-foreground: 10 10 10;
+        --secondary: 37 37 37;
+        --secondary-foreground: 224 224 224;
+        --muted: 37 37 37;
+        --muted-foreground: 156 163 175;
+        --accent: 0 217 255;
+        --accent-foreground: 10 10 10;
+        --destructive: 255 51 102;
+        --destructive-foreground: 224 224 224;
+        --border: 37 37 37;
+        --input: 37 37 37;
+        --ring: 0 255 65;
+        --chart-1: 0 255 65;
+        --chart-2: 0 217 255;
+        --chart-3: 189 147 249;
+        --chart-4: 241 250 140;
+        --chart-5: 255 51 102;
+        --radius: 0.5rem;
+    }
+    .dark {
+        --background: 10 10 10;
+        --foreground: 224 224 224;
+        --card: 26 26 26;
+        --card-foreground: 224 224 224;
+        --popover: 26 26 26;
+        --popover-foreground: 224 224 224;
+        --primary: 0 255 65;
+        --primary-foreground: 10 10 10;
+        --secondary: 37 37 37;
+        --secondary-foreground: 224 224 224;
+        --muted: 37 37 37;
+        --muted-foreground: 156 163 175;
+        --accent: 0 217 255;
+        --accent-foreground: 10 10 10;
+        --destructive: 255 51 102;
+        --destructive-foreground: 224 224 224;
+        --border: 37 37 37;
+        --input: 37 37 37;
+        --ring: 0 255 65;
+        --chart-1: 0 255 65;
+        --chart-2: 0 217 255;
+        --chart-3: 189 147 249;
+        --chart-4: 241 250 140;
+        --chart-5: 255 51 102;
+    }
+}
+
+@layer base {
+    * {
+        @apply border-border;
+    }
+    body {
+        @apply bg-background text-foreground;
+    }
+}
+
+@layer base {
+    [data-debug-wrapper="true"] {
+        display: contents !important;
+    }
+
+    [data-debug-wrapper="true"] > * {
+        margin-left: inherit;
+        margin-right: inherit;
+        margin-top: inherit;
+        margin-bottom: inherit;
+        padding-left: inherit;
+        padding-right: inherit;
+        padding-top: inherit;
+        padding-bottom: inherit;
+        column-gap: inherit;
+        row-gap: inherit;
+        gap: inherit;
+        border-left-width: inherit;
+        border-right-width: inherit;
+        border-top-width: inherit;
+        border-bottom-width: inherit;
+        border-left-style: inherit;
+        border-right-style: inherit;
+        border-top-style: inherit;
+        border-bottom-style: inherit;
+        border-left-color: inherit;
+        border-right-color: inherit;
+        border-top-color: inherit;
+        border-bottom-color: inherit;
+    }
+}
