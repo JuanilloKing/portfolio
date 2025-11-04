@@ -96,7 +96,7 @@ export const githubRepos = [
   {
     id: 2,
     name: "videojuego-laravel",
-    description: "Pequeño proyecto hecho en laravel con liveware, sobre un videoclub de vieojuegos.",
+    description: "Pequeño proyecto hecho en laravel con liveware, sobre un videoclub de videojuegos.",
     language: "PHP",
     stars: 0,
     forks: 0,
@@ -112,7 +112,7 @@ export const githubRepos = [
     stars: 0,
     forks: 0,
     commits: 3,
-    url: "https://github.com/JuanilloKing/java-spring-app",
+    url: "https://github.com/JuanilloKing/proyecto-reactjs-final",
     topics: ["react", "vite", "JavaScript"]
   }
 ];

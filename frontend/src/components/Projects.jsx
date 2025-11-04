@@ -174,7 +174,7 @@ const Projects = () => {
         {/* GitHub Profile CTA */}
         <div className="mt-12 text-center">
           <a
-            href="https://github.com/eduardosumariva"
+            href="https://github.com/JuanilloKing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 bg-[#1a1a1a] border border-[#00ff41] text-[#00ff41] rounded hover:bg-[#00ff41] hover:text-[#0a0a0a] transition-all font-mono text-sm font-semibold"
