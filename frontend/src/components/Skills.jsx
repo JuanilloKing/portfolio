@@ -21,6 +21,7 @@ const skillBadges = {
 
   Figma: 'https://img.shields.io/badge/-Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white',
   Git: 'https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white',
+  Docker: 'https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white',
   
   'HTML/CSS': 'https://img.shields.io/badge/-HTML5%2FCSS3-E34F26?style=for-the-badge&logo=html5&logoColor=white',
   JavaScript: 'https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black',

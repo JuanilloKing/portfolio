@@ -27,7 +27,8 @@ export const skills = [
   { name: "Figma", category: "tools" },
   { name: "HTML/CSS", category: "frontend" },
   { name: "JavaScript", category: "frontend" },
-  { name: "Git", category: "tools" }
+  { name: "Git", category: "tools" },
+  { name: "Docker", category: "tools" }
 ];
 
 export const education = [
@@ -75,19 +76,7 @@ export const certifications = [
   },
   {
     id: 4,
-    title: "Protege tu empresa de los ciberataques",
-    issuer: "Agencia Digital de Andalucía",
-    date: "2024"
-  },
-  {
-    id: 5,
     title: "Introducción y fundamentos de Big Data",
-    issuer: "Agencia Digital de Andalucía",
-    date: "2024"
-  },
-  {
-    id: 6,
-    title: "Introducción al hacking ético",
     issuer: "Agencia Digital de Andalucía",
     date: "2024"
   }
