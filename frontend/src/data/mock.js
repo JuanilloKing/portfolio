@@ -57,24 +57,36 @@ export const education = [
 export const certifications = [
   {
     id: 1,
+    title: "Introduccion a Docker",
+    issuer: "OpenWebinars",
+    date: "Nov 2025"
+  },
+  {
+    id: 2,
+    title: "Web Development with Python",
+    issuer: "IBM SkillsBuild",
+    date: "Nov 2025"
+  },
+  {
+    id: 3,
     title: "Cambridge English B1",
     issuer: "Cambridge",
     date: "Sep 2022"
   },
   {
-    id: 2,
+    id: 4,
     title: "Protege tu empresa de los ciberataques",
     issuer: "Agencia Digital de Andalucía",
     date: "2024"
   },
   {
-    id: 3,
+    id: 5,
     title: "Introducción y fundamentos de Big Data",
     issuer: "Agencia Digital de Andalucía",
     date: "2024"
   },
   {
-    id: 4,
+    id: 6,
     title: "Introducción al hacking ético",
     issuer: "Agencia Digital de Andalucía",
     date: "2024"
